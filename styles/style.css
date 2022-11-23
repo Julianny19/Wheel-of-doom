@@ -1,0 +1,38 @@
+body{
+    background-image: url(../assets/69f09933b76b450783a9f8b34d4c9501.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    align-items: center;
+}
+   .imagen1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+        padding: 10px;
+    }
+    .imagen2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          
+    }
+    .imagen3{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    
+.imagen2:hover{
+        transform:scale(02);
+    }
+.imagen2{
+        transition: all 0.5s linear;
+    }
